@@ -19,30 +19,30 @@ From the diagrams below.
 
   1. Connect to Remote Server through SSH (SSH password will be provided in the Slack Channel)
 
-  ```
-  ➜  ~ ssh root@45.55.135.14
-  root@45.55.135.14's password:
-  ```
+    ```
+    ➜  ~ ssh root@45.55.135.14
+    root@45.55.135.14's password:
+    ```
 
-  2. Log into mysql shell as root user + enter password (DB password will be provided in Slack Channel)
+  2. While inside remote server, log into mysql shell as root user + enter password (DB password will be provided in Slack Channel)
 
-  ```sql
-  mysql -u root -p
-  ```
+    ```
+    mysql -u root -p
+    ```
 
   3. From the mysql shell, create the database _with your Github username_.
 
-  **Example**
+    **Example**
 
-  ```sql
-  mysql> CREATE DATABASE DBA_tphdev;  # for student Travis Patterrson Hubbard, you need to create your own
-  ```
+    ```sql
+    mysql> CREATE DATABASE DBA_tphdev;  # for student Travis Patterrson Hubbard, you need to create your own
+    ```
 
   4. From the mysql shell, enter the database
 
-  ```sql
-  mysql> USE DATABASE DBA_tphdev;   
-  ```
+    ```sql
+    mysql> USE DATABASE DBA_tphdev;   
+    ```
 
 ## Exercises
 
