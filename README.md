@@ -4,17 +4,17 @@
 
 You are the company's Database Administrator (DBA), and you have been asked to implement the database schema based on two entity-relation diagrams (ERDs).
 
-To complete this exercise, you will need to create:
+To complete the exercises, you will need to create:
 
-  - The tables
+  - A new database
+  - The tables shown in the ERD's
   - The tables' columns
   - The foreign keys that connect the tables
 
-From the diagrams below.
 
 ## Deliverables
 
-A mysql database `DBA_{your-github-name}` on the 45.55.135.14 remote server with the tables shown below.
+A mysql database `DBA_{your-github-username}` on the 45.55.135.14 remote server with the tables shown below.
 
 ## Setup Instructions
 
@@ -51,5 +51,5 @@ Create the tables, columns, and relations from the two ERDs below
 #### ERD Exercise 1 : Empresa - Trabajador
   ![demos/E02.png](demos/E02-specific.png)
 
-#### ERD Exercise 2 : Profesor - Estudiante - Curso 
+#### ERD Exercise 2 : Profesor - Estudiante - Curso
   ![demos/E03.png](demos/E03-specific.png)
