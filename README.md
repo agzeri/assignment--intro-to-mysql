@@ -2,27 +2,54 @@
 
 ## The Assignment
 
-You are the only DBA in the company right now and you have been assigned a task: You need to create the correct code for these two Entity-Relation Diagram. Keep in mind that maybe you need to code also the relations amongst tables.
+You are the company's Database Administrator (DBA), and you have been asked to implement the database schema based on two entity-relation diagrams (ERDs).
+
+To complete this exercise, you will need to create:
+
+  - The tables
+  - The tables' columns
+  - The foreign keys that connect the tables
+
+From the diagrams below.
 
 ## Deliverables
 
-  + a github repository named `assignment-intro-to-mysql`
 
 ## Setup Instructions
 
-  1. Connect to MySQL Server on [45.55.135.14/phpmyadmin](45.55.135.14/phpmyadmin)
-  2. Create a database and add your initial letters as suffix.
+  1. Connect to Remote Server through SSH (SSH password will be provided in the Slack Channel)
 
-  ###### Example
-  
-  ```sql
-  CREATE DATABASE DBA_BG; # Bill Gates
+  ```
+  ➜  ~ ssh root@45.55.135.14
+  root@45.55.135.14's password:
   ```
 
-## Exercise
+  2. Log into mysql shell as root user + enter password (DB password will be provided in Slack Channel)
 
-  ##### Exercise 1.
-  ![demos/E02.png](demos/E02.png)
+  ```sql
+  mysql -u root -p
+  ```
 
-  ##### Exercise 2.
-  ![demos/E03.png](demos/E03.png)
+  3. From the mysql shell, create the database _with your Github username_.
+
+  **Example**
+
+  ```sql
+  mysql> CREATE DATABASE DBA_tphdev;  # for student Travis Patterrson Hubbard, you need to create your own
+  ```
+
+  4. From the mysql shell, enter the database
+
+  ```sql
+  mysql> USE DATABASE DBA_tphdev;   
+  ```
+
+## Exercises
+
+  Create the tables, columns, and relations from the two ERDs below
+
+  ##### Exercise 1 : Empleo - Trabajador ERD
+  ![demos/E02.png](demos/E02-specific.png)
+
+  ##### Exercise 2 : Profesor - Estudiante - Curso ERD
+  ![demos/E03.png](demos/E03-specific.png)
