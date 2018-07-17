@@ -31,9 +31,7 @@ From the diagrams below.
   mysql -u root -p
   ```
 
-3. From the mysql shell, create the database _with your Github username_.
-
-  **Example**
+3. From the mysql shell, create the database _with your Github username_. (**Example**)
 
   ```sql
   mysql> CREATE DATABASE DBA_tphdev;  # for student Travis Patterrson Hubbard, you need to create your own
@@ -47,10 +45,10 @@ From the diagrams below.
 
 ## Exercises
 
-  Create the tables, columns, and relations from the two ERDs below
+Create the tables, columns, and relations from the two ERDs below
 
-  ##### Exercise 1 : Empleo - Trabajador ERD
+#### Exercise 1 : Empleo - Trabajador ERD
   ![demos/E02.png](demos/E02-specific.png)
 
-  ##### Exercise 2 : Profesor - Estudiante - Curso ERD
+####  Exercise 2 : Profesor - Estudiante - Curso ERD
   ![demos/E03.png](demos/E03-specific.png)
