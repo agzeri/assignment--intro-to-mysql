@@ -18,24 +18,26 @@ A mysql database `DBA_{your-github-username}` on the 45.55.135.14 remote server 
 
 ## Setup Instructions
 
-1. Connect to Remote Server through SSH (SSH password will be provided in the Slack Channel)
+1. Connect to Remote Server through SSH (SSH password will be provided in the Slack Channel). This is where the database is presently hosted.
 
   ```
   ➜  ~ ssh root@45.55.135.14
   root@45.55.135.14's password:
   ```
 
-2. While inside remote server, log into mysql shell as root user + enter password
+2. While inside remote server, log into the mysql shell as root user + enter password
    (DB password will be provided in Slack Channel)
 
   ```
   mysql -u root -p
   ```
 
-3. From the mysql shell, create the database _with your Github username_. (**Example**)
+3. From the mysql shell, create your database for the assignment based on the format below. Note that you need to supply _your Github username_ so that the instructor can identify your project. (**Example**)
 
   ```sql
-  mysql> CREATE DATABASE DBA_tphdev;  # for student Travis Patterrson Hubbard, you need to create your own
+  mysql> CREATE DATABASE DBA_tphdev;  
+     # for student Travis Patterrson Hubbard,
+     # you need to create your own based on your Github username
   ```
 
 4. From the mysql shell, enter the database
