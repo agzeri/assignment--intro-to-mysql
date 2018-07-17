@@ -14,6 +14,7 @@ From the diagrams below.
 
 ## Deliverables
 
+A mysql database `DBA_{your-github-name}` on the 45.55.135.14 remote server with the tables shown below.
 
 ## Setup Instructions
 
