@@ -48,8 +48,8 @@ A mysql database `DBA_{your-github-name}` on the 45.55.135.14 remote server with
 
 Create the tables, columns, and relations from the two ERDs below
 
-#### Exercise 1 : Empleo - Trabajador ERD
+#### ERD Exercise 1 : Empresa - Trabajador
   ![demos/E02.png](demos/E02-specific.png)
 
-####  Exercise 2 : Profesor - Estudiante - Curso ERD
+#### ERD Exercise 2 : Profesor - Estudiante - Curso 
   ![demos/E03.png](demos/E03-specific.png)
