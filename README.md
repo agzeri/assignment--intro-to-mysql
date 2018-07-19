@@ -43,7 +43,7 @@ A mysql database `DBA_{your-github-username}` on the 45.55.135.14 remote server 
 4. From the mysql shell, enter the database
 
   ```sql
-  mysql> USE DATABASE DBA_tphdev;   
+  mysql> USE DBA_tphdev;   
   ```
 
 ## Exercises
